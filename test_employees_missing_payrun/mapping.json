@@ -1,0 +1,67 @@
+{
+  "tenant": "Sample",
+  "country": "DATA",
+  "company": "Abc ltd",
+  "payroll_id": 100,
+  "vendor": "Vendor One",
+  "overwrite_EEs": true,
+  "calculations": [],
+  "not_used":[
+    {
+      "vendor": "element8",
+      "code": 100
+    }
+  ],
+  "mappings": {
+    "Net Pay": {
+      "vendor": "element6",
+      "code": null,
+      "map": true
+    },
+    "Tax": {
+      "vendor": "element1",
+      "code": null,
+      "map": true
+    },
+    "Pension ER": {
+      "vendor": "element3",
+      "code": null,
+      "map": true
+    },
+    "Gross Pay": {
+      "vendor": "element7",
+      "code": null,
+      "map": true
+    },
+    "BIK Voucher Payment": {
+      "vendor": "element5",
+      "code": null,
+      "map": true
+    },
+    "Basic Pay / SalaryUK": {
+      "vendor": "salary",
+      "code": null,
+      "map": true
+    },
+    "BIKHealth": {
+      "vendor": "element2",
+      "code": null,
+      "map": true
+    },
+    "Bonus": {
+      "vendor": "element4",
+      "code": null,
+      "map": true
+    },
+    "Backpay": {
+      "vendor": "element9",
+      "code": null,
+      "map": true
+    },
+    "Total Employer Cost": {
+      "vendor": "element10",
+      "code": null,
+      "map": true
+    }
+  }
+}
